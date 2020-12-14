@@ -1,0 +1,23 @@
+표현 언어(Expression language)
+<%=변수 %> 이런식표현이 별로더라
+EL 표현
+값(변수)를 표현하는데 특화된 방식
+${자바 내용} 
+
+수치연산, 관계연산, 논리연산 가능
+자바의 메서드 호출도 가능
+쿠키, 기본 객체의 속성(attribute)도 표현 가능
+자료형 표현
+boolean ture,false
+정수 : 타입은 long ${-10}
+실수 : 타입은 double ${0.05}
+문자열 : 타입 String ${"문자열"}
+
+el의 기본객체 표현
+pageScope = jsp안의 pageContext객체
+requestScope = jsp의 request객체
+sessionScope = jsp의 session객체
+applicationScope = jsp의 application객체
+
+param : request의 파라미터를 담은 내용을 map형태로 갖고 있는 객체
+paramValues : 파라미터 값들
